@@ -1,0 +1,64 @@
+h1{
+    font-size: 30px;
+}
+
+h2{
+    margin: 0 0 8px 0;
+}
+
+.dashSection{
+    padding: 0 200px;
+}
+
+.headingBar{
+    text-align: center;
+}
+
+.cardContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dummyBtns{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dummyBtns span{
+    display: block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: default;
+}
+
+.dummyBtns span:first-child{
+    background-color: #ff8e18;
+    margin-right: 15px;
+}
+
+.dummyBtns span:last-child{
+    background-color: #8256d0;
+}
+
+
+
+@media only screen and (max-width: 767px){
+
+    .cardMain{
+        display: block!important;
+        text-align: center;
+    }
+
+    .cardMain img{
+        margin: 0 auto;
+    }
+
+    .dummyBtns{
+        justify-content: center;
+    }
+
+}
